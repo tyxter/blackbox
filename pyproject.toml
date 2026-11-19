@@ -44,7 +44,7 @@ xai = ["openai>=2,<4"]
 anthropic = ["anthropic>=0.40,<2"]
 claude-agent = ["claude-agent-sdk>=0.2,<1"]
 codex = ["openai-codex==0.147.0"]
-google = ["google-auth>=2,<3", "google-genai>=1,<3"]
+google = ["google-auth>=2,<3", "google-genai>=1,<4"]
 mcp = ["mcp>=1,<3"]
 validate = ["pydantic>=2,<3"]
 sandbox = []
@@ -62,7 +62,7 @@ dev = [
   "openai>=2,<4",
   "anthropic>=0.40,<2",
   "google-auth>=2,<3",
-  "google-genai>=1,<3",
+  "google-genai>=1,<4",
 ]
 all = [
   "openai>=2,<4",
@@ -71,7 +71,7 @@ all = [
   "claude-agent-sdk>=0.2,<1",
   "openai-codex==0.147.0",
   "google-auth>=2,<3",
-  "google-genai>=1,<3",
+  "google-genai>=1,<4",
   "mcp>=1,<3",
   "opentelemetry-api>=1.28,<2",
   "opentelemetry-sdk>=1.28,<2",
